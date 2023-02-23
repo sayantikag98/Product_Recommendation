@@ -1,0 +1,23 @@
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-form-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-input>.rating{
+    margin-left: 15px;
+}
+
+.submit{
+    margin: 20px auto;
+}
+
+.recommended-product{
+    text-align: center;
+}

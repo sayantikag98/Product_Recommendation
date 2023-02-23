@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Product Recommendation</title>
+</head>
+<body>
+    <h1 class="heading">Product Recommendation System</h1>
+    <form id="user-form" class="user-form-input">
+        <div class="form-input">
+            <select class="product" required name="product" value="">
+                <option value="" selected disabled hidden>Please select the product</option>
+                <option value="Vitamin C Serum">
+                    Vitamin C Serum
+                </option>
+                <option value="Pink Clay Mask">
+                    Pink Clay Mask
+                </option>
+                <option value="Day Cream">
+                    Day Cream
+                </option>
+                <option value="Night Cream">
+                    Night Cream
+                </option>
+                <option value="Hyaluronic Acid Serum">
+                    Hyaluronic Acid Serum
+                </option>
+                <option value="Acne Busting Serum">
+                    Acne Busting Serum
+                </option>
+                <option value="Green Clay Mask">
+                    Green Clay Mask
+                </option>
+                <option value="Day Gel">
+                    Day Gel
+                </option>
+                <option value="AHA Serum">
+                    AHA Serum
+                </option>
+                <option value="AHA Sleep Mask">
+                    AHA Sleep Mask
+                </option>
+            </select>
+            <input class="rating" name="rating" value="" required type="number" min="0" step="any" placeholder="Please give the rating"/>
+        </div>
+        <div class="form-submit">
+            <button class="submit" type="submit">Submit</button>
+        </div>
+    </form>
+
+    <h2 class="recommended-product"></h2>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
